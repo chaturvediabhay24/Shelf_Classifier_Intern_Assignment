@@ -46,7 +46,7 @@ tb-nightly
 tensorflow==1.0.0
 termcolor==1.1.0
 tf-estimator-nightly==2.0.0.dev2019111709
-tf-nightly==2.1.0.dev20191117
+tf-nightly
 urllib3==1.25.7
 Werkzeug==0.16.0
 wrapt==1.11.2
