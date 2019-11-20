@@ -4,6 +4,7 @@ import pickle
 from pyspark import SparkFiles
 import flask
 import pandas as pd
+import tensorflow
 import tensorflow as tf
 from tensorflow.python.framework import ops
 ops.reset_default_graph()
@@ -12,9 +13,9 @@ import io
 import h5py
 from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
-import keras
-from keras.models import load_model 
-keras.backend.clear_session() 
+# import keras
+from tensorflow.keras.models import load_model 
+tensorflow.keras.backend.clear_session() 
 app = Flask(__name__)
 
 from poetry import predictor
